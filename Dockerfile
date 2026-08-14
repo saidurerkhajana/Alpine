@@ -5,7 +5,6 @@ RUN apk add --no-cache \
     php84 \
     php84-fpm \
     php84-mysqli \
-    php84-pdo \
     php84-pdo_mysql \
     php84-mbstring \
     php84-openssl \
@@ -25,4 +24,4 @@ RUN apk add --no-cache \
     git \
     unzip
 
-CMD ["sh"]
+CMD ["sleep", "infinity"]
