@@ -24,3 +24,5 @@ RUN apk add --no-cache \
     curl \
     git \
     unzip
+
+CMD ["sh"]
